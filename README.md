@@ -1,6 +1,10 @@
+* `create_model.py` uses a .csv file with certain parameters as input and processes training depending on the type of housing. One model is created for each supported housing type.
+* `api.py` provides an endpoint to the model used for apartments.
+* The `models` directory contains saved models which were trained on preexisting data.
+
 ## Predictive model user guide
 
-Using the model requires 1) training and model creation using `create_model.py`, and 2) accessing using `api.py` which is located under the front-end module in the api map.
+Using the model requires 1) training and model creation using `create_model.py`, and 2) accessing using `api.py`.
 
 ## Required modules
 
